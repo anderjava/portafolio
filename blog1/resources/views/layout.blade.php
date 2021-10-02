@@ -22,7 +22,7 @@
     </main>
 
     <footer class="bg-white text-center text-black py-3 shadow">
-        {{ config('app.name') }} | derechos reservados ander 2021{{ date('Y') }}
+        {{ config('app.name') }} | derechos reservado ander 2021{{ date('Y') }}
     </footer>
 </div> 
 </body>
