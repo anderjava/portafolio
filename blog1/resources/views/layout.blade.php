@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <title>@yield('title', 'EsauCode')</title>
+    <title>@yield('title', 'ander')</title>
     <link rel="stylesheet" href="{{ mix('css/app.css') }}">
     <script src="{{ mix('js/app.js') }}"></script>
     
@@ -22,7 +22,7 @@
     </main>
 
     <footer class="bg-white text-center text-black py-3 shadow">
-        {{ config('app.name') }} | Copyrigh@Esau Zelaya {{ date('Y') }}
+        {{ config('app.name') }} | derechos reservados ander 2021{{ date('Y') }}
     </footer>
 </div> 
 </body>
